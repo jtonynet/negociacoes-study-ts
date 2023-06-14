@@ -8,7 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 ### Added
 
-## [0.0.1] - 2021-10-23
+## [0.0.1] - 2023-06-14
 ### Added
 
 - Commit inicial para atualização em técnicas modernas de JavaScript/TypeScript, com base no [Curso Online TypeScript: Evoluindo seu JavaScript](https://www.alura.com.br/curso-online-typescript-evoluindo-javascript)
