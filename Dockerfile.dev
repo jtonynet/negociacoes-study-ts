@@ -1,0 +1,17 @@
+FROM node:12
+
+WORKDIR /app
+
+ADD ./package*.json ./
+COPY ./dist ./dist
+COPY ./servidor-api ./servidor-api
+
+RUN npm install
+
+WORKDIR /app/servidor-api
+
+RUN npm install
+
+WORKDIR /app
+
+#RUN sleep 900000000000
