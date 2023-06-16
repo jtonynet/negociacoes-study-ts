@@ -8,7 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 ### Added
 
-## [0.0.2] - 2023-06-15
+## [0.0.4] - 2023-06-16
 ### Added
 
 - Melhorando a tipagem do TS
