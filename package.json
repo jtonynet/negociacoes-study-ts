@@ -5,12 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "concurrently \"cd servidor-api && npm start\""
+    "start": "cd servidor-api && npm start"
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "concurrently": "^6.0.0",
+  "dependencies": {
+    "express": "4.18.2",
+    "body-parser": "1.19.0",
     "nodemon": "1.19.1"
   }
 }
