@@ -6,7 +6,7 @@ import { NegociacaoView } from "../views/negociacoes-view.js";
 export class NegociacaoController {
     constructor() {
         this.negociacoes = new Negociacoes();
-        this.negociacoesView = new NegociacaoView('#negociacoesView');
+        this.negociacoesView = new NegociacaoView('#negociacoesView', true);
         this.mensagemView = new MensagemView('#mensagemView');
         this.DOMINGO = 0;
         this.SABADO = 6;
