@@ -4,6 +4,7 @@ WORKDIR /app
 
 ADD ./package*.json ./
 COPY ./dist ./dist
+COPY ./app ./app
 COPY ./servidor-api ./servidor-api
 
 RUN npm install

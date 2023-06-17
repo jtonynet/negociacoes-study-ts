@@ -10,6 +10,7 @@ services:
       - ./:/app/src
       - ./servidor-api:/app/servidor-api
       - ./dist:/app/dist
+      - ./app:/app/app
     ports:
       - "3000:3000"
     command: npm start
