@@ -1,16 +1,36 @@
-version: "3.7"
-
+version: '3.7'
 services:
-  node-ts-otimizado:
+  negociacoes-site:
     build:
-      context: .
-      dockerfile: Dockerfile.dev
-    container_name: negociacoes-study-ts
-    volumes:
-      - ./:/app/src
-      - ./servidor-api:/app/servidor-api
-      - ./dist:/app/dist
-      - ./app:/app/app
+      context: ./negociacoes-site
+      dockerfile: Dockerfile
     ports:
-      - "3000:3000"
-    command: npm start
+      - 3000:3000
+    volumes:
+      - ./negociacoes-site/app:/usr/src/app/app
+      - ./negociacoes-site/dist:/usr/src/app/dist
+    environment:
+      - PORT=3000
+    command: npm run start:dev
+    tty: true
+    networks:
+      - negociacoes-network
+
+  negociacoes-api:
+    build:
+      context: ./negociacoes-api
+      dockerfile: Dockerfile
+    ports:
+      - 3001:3001
+    volumes:
+      - ./negociacoes-api/app:/usr/src/app/app
+      - ./negociacoes-api/config:/usr/src/app/config
+    environment:
+      - PORT=3001
+    command: npm run start:dev
+    tty: true
+    networks:
+      - negociacoes-network
+
+networks:
+  negociacoes-network:
