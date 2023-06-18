@@ -1,0 +1,24 @@
+{
+    "name": "negociacoes-site",
+    "version": "1.0.0",
+    "description": "Front-end project negociacoes-site",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start:dev": "npm run watch & nodemon server.js",
+        "start:prod": "nodemon server.js",
+        "compile": "tsc",
+        "watch": "tsc -w"
+    },
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {
+        "express": "4.18.2",
+        "body-parser": "1.19.0",
+        "nodemon": "1.19.1",
+        "axios": "0.24.0"
+    },
+    "devDependencies": {
+        "typescript": "^4.2.2"
+    }
+}

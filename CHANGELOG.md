@@ -8,6 +8,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 ### Added
 
+## [0.1.0] - 2023-06-17
+### Added
+
+- Melhorias na Dockerização e na Documentação
+
 ## [0.0.7] - 2023-06-17
 ### Added
 
@@ -45,6 +50,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Commit inicial para atualização em técnicas modernas de JavaScript/TypeScript, com base no [Curso Online TypeScript: Evoluindo seu JavaScript](https://www.alura.com.br/curso-online-typescript-evoluindo-javascript)
 - Por recomendação do instrutor, foi copiada a estrutura inicial do projeto, incluindo um servidor funcional, uma vez que o curso é focado em desenvolvimento front-end.
 
+[0.1.0]: https://github.com/jtonynet/negociacoes-study-ts/compare/v0.0.7...v0.1.0
 [0.0.7]: https://github.com/jtonynet/negociacoes-study-ts/compare/v0.0.6...v0.0.7
 [0.0.6]: https://github.com/jtonynet/negociacoes-study-ts/compare/v0.0.5...v0.0.6
 [0.0.5]: https://github.com/jtonynet/negociacoes-study-ts/compare/v0.0.4...v0.0.5
