@@ -7,7 +7,7 @@ services:
     ports:
       - 3000:3000
     volumes:
-      - ./negociacoes-site/app:/usr/src/app/app
+      - ./negociacoes-site/src:/usr/src/app/src
       - ./negociacoes-site/dist:/usr/src/app/dist
     environment:
       - PORT=3000
