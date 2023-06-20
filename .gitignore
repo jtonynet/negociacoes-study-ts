@@ -1,3 +1,4 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
 lib-cov
 *.seed
 *.log
@@ -7,6 +8,46 @@ lib-cov
 *.pid
 *.gz
 *.swp
+
+# compiled output
+dist
+tmp
+/out-tsc
+
+# dependencies
+node_modules
+bower_components
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+*.iml
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# System Files
+.DS_Store
+Thumbs.db
 
 pids
 logs
@@ -21,14 +62,6 @@ coverage
 
 # API keys and secrets
 .env
-
-# Dependency directory
-node_modules
-bower_components
-
-# Editors
-.idea
-*.iml
 
 # OS metadata
 .DS_Store

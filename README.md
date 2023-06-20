@@ -1,5 +1,7 @@
 # Projeto de Estudo NodeJs e Typescript
-[<img src="./doc/images/nodedotjs.svg" width="25px" height="25px" title="Node.js" alt="Node.js"> <img src="./doc/images/typescript.svg" width="25px" height="25px" title="TypeScript" alt="TypeScript"> <img src="./doc/images/express.svg" width="25px" height="25px" title="Express" alt="Express"> <img src="./doc/images/npm.svg" width="25px" height="25px" alt="npm" title="npm"> <img src="./doc/images/docker.svg" width="25px" height="25px" alt="Docker" title="Docker"> <img src="./doc/images/github.svg" width="25px" height="25px" alt="GitHub" title="GitHub"> <img src="./doc/images/visualstudiocode.svg" width="25px" height="25px" alt="vscode" title="vscode">](#projeto-de-estudo-nodejs-e-typescript)
+[<img src="./doc/images/icons/nodedotjs.svg" width="25px" height="25px" title="Node.js" alt="Node.js"> <img src="./doc/images/icons/typescript.svg" width="25px" height="25px" title="TypeScript" alt="TypeScript"> <img src="./doc/images/icons/express.svg" width="25px" height="25px" title="Express" alt="Express"> <img src="./doc/images/icons/npm.svg" width="25px" height="25px" alt="npm" title="npm"> <img src="./doc/images/icons/docker.svg" width="25px" height="25px" alt="Docker" title="Docker"> <img src="./doc/images/icons/github.svg" width="25px" height="25px" alt="GitHub" title="GitHub"> <img src="./doc/images/icons/nx.svg" width="25px" height="25px" alt="NX" title="NX"> <img src="./doc/images/icons/visualstudiocode.svg" width="25px" height="25px" alt="vscode" title="vscode">](#projeto-de-estudo-nodejs-e-typescript)
+
+:construction: [Monorepo NX em andamento](./README-NX.md) :construction:
 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge) ![Badge TYPESCRIPT](http://img.shields.io/static/v1?label=TYPESCRIPT&message=4.2.2&color=BLUE&style=for-the-badge) 
 
@@ -80,6 +82,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Express](https://expressjs.com/en/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [npm](https://www.npmjs.com/)
+- [NX](https://nx.dev/)
 - [Docker](https://www.docker.com/)
 
 [:arrow_heading_up: voltar](#indice)

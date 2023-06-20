@@ -2,13 +2,13 @@ version: '3.7'
 services:
   negociacoes-site:
     build:
-      context: ./negociacoes-site
+      context: ./packages/negociacoes-site
       dockerfile: Dockerfile
     ports:
       - 3000:3000
     volumes:
-      - ./negociacoes-site/src:/usr/src/app/src
-      - ./negociacoes-site/dist:/usr/src/app/dist
+      - ./packages/negociacoes-site/src:/usr/src/app/src
+      - ./packages/negociacoes-site/dist:/usr/src/app/dist
     environment:
       - PORT=3000
     command: npm run start:dev
@@ -18,13 +18,13 @@ services:
 
   negociacoes-api:
     build:
-      context: ./negociacoes-api
+      context: ./packages/negociacoes-api
       dockerfile: Dockerfile
     ports:
       - 3001:3001
     volumes:
-      - ./negociacoes-api/app:/usr/src/app/app
-      - ./negociacoes-api/config:/usr/src/app/config
+      - ./packages/negociacoes-api/app:/usr/src/app/app
+      - ./packages/negociacoes-api/config:/usr/src/app/config
     environment:
       - PORT=3001
     command: npm run start:dev
