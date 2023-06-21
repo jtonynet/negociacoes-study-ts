@@ -24,11 +24,11 @@
 <a id="sobre"></a>
 ## :green_book: Sobre
 
-Este projeto tem como objetivo me atualizar em JavaScript/TypeScript no contexto de desenvolvimento front-end (diretório `negociacoes-site`). O foco é o aprendizado e a aplicação de boas práticas utilizando TypeScript, sem o uso de frameworks como React, Vue, Nest, Next, entre outros. O projeto é baseado na [Formação Melhore sua experiência de desenvolvimento com TypeScript](https://www.alura.com.br/formacao-typescript) e em trilhas de atualização.
+Este projeto tem como objetivo me atualizar em JavaScript/TypeScript no contexto de desenvolvimento front-end (diretório `packages/negociacoes-site`). O foco é o aprendizado e a aplicação de boas práticas utilizando TypeScript, sem o uso de frameworks como React, Vue, Nest, Next, entre outros. O projeto é baseado na [Formação Melhore sua experiência de desenvolvimento com TypeScript](https://www.alura.com.br/formacao-typescript) e em trilhas de atualização.
 
 Além disso, foi realizada dockerização do projeto (a arquitetura original era voltada apenas para fins didáticos) para testar o [Github Codespaces](https://github.com/codespaces), uma solução que permite validar e compartilhar o projeto na nuvem durante o desenvolvimento.
 
-Está nos planos atualizar o `negociacoes-api`, que atualmente é um mero exemplo para servir o front-end, para algo mais funcional, como uma prova de conceito (POC). Paralelamente, também estou pesquisando outras soluções para projetos de microsserviços mais complexos que estou desenvolvendo.
+Está nos planos atualizar o `packages/negociacoes-api`, que atualmente é um mero exemplo para servir o front-end, para algo mais funcional, como uma prova de conceito (POC). Paralelamente, também estou pesquisando outras soluções para projetos de microsserviços mais complexos que estou desenvolvendo.
 
 [:arrow_heading_up: voltar](#indice)
 
@@ -108,7 +108,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 <a id="boas-praticas"></a>
 ## :clap: Boas Práticas
-Seguindo boas práticas dedesenvolvimento:
+Seguindo boas práticas de desenvolvimento:
 - [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0.0.html)
 - [keep a changelog](https://keepachangelog.com/en/1.0.0/)
 - [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
@@ -120,7 +120,7 @@ Seguindo boas práticas dedesenvolvimento:
 ---
 <a id="desenvolvedores"></a>
 ## :nerd_face: Para Desenvolvedores
-Durante o estudo/desenvolvimento, por sugestão de outros desenvolvedores, foram adotadas as ferramentas [Nx](https://nx.dev/) e seu [console no VScode](https://marketplace.visualstudio.com/items?itemName=nrwl.angular-console) para a gestão de Monorepos. Estou utilizando o mínimo de suas capacidades com finalidade de estudo, no entanto para uma experiência de desenvolvimento e validação técnica do repositório, [sugiro instalação do ambiente](https://nx.dev/recipes/adopting-nx/adding-to-monorepo). Explicar o funcionamento do Nx não é o objetivo do presente documento, mas encorajo a buscar esses dados caso deseje. [Qualquer Monorepo pode se tornar um monorepo Nx](https://blog.nrwl.io/adding-nx-to-an-existing-monorepo-by-running-one-command-426fa519d943).
+Durante o estudo/desenvolvimento, por sugestão de outros desenvolvedores, foram adotadas as ferramentas [Nx](https://nx.dev/) (que requer Nodejs em sua máquina) e seu [console no VScode](https://marketplace.visualstudio.com/items?itemName=nrwl.angular-console) para a gestão de Monorepos. Estou utilizando o mínimo de suas capacidades com finalidade de estudo, no entanto para uma experiência de desenvolvimento e validação técnica do repositório, [sugiro instalação do ambiente](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm). Explicar o funcionamento do Nx não é o objetivo do presente documento, mas [encorajo a buscar esses dados](https://nx.dev/getting-started/intro) caso deseje. [Qualquer Monorepo pode se tornar um monorepo Nx](https://blog.nrwl.io/adding-nx-to-an-existing-monorepo-by-running-one-command-426fa519d943).
 
 Nada do que foi discutido nessa seção deve atrapalhar o [correto funcionamento e instalação](#computer-instalação) do projeto em uma máquina com o docker-compose funcional
 
@@ -132,7 +132,7 @@ Tenha bons estudos :)
 
 <a id="versionamento"></a>
 ## :1234: Versões
-As versões estao sendo criadas manualmente a medida que os estudos avançam com melhorias notáveis no projeto. Cada novo modulo do curso ou funcionalidade é desenvolvido em uma branch a parte quando finalizadas é gerada tag (minor para o curso e patch para melhorias) e mergeadas em master.
+As tags de versões estao sendo criadas manualmente a medida que os estudos avançam com melhorias notáveis no projeto. Cada novo modulo do curso ou funcionalidade é desenvolvido em uma branch a parte quando finalizadas é gerada tag (minor para o curso e patch para melhorias) e mergeadas em master.
 
 Com a adição do Nx e futuramente um script de controle de versão esse processo tende a ser automatizado
 
