@@ -1,11 +1,13 @@
 {
     "compilerOptions": {
         "outDir": "dist/js",
+        "rootDir": "./src",
         "target": "ES6",
         "noEmitOnError": true,
         "noImplicitAny": true,
         "removeComments": true,
-        "strictNullChecks": true
+        "strictNullChecks": true,
+        "experimentalDecorators": true,
     },
     "include": [
         "src/**/*"
