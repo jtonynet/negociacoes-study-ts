@@ -1,5 +1,5 @@
 import { Negociacao } from "../models/negociacao";
-import { Imprimivel } from "./imprimivel";
+import { Imprimivel } from "../interfaces/imprimivel";
 
 export function imprimir(...objetos: Imprimivel[]):void {
     for(let objeto of objetos) {
