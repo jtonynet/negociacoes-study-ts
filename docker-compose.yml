@@ -21,12 +21,12 @@ services:
       context: ./packages/negociacoes-api
       dockerfile: Dockerfile
     ports:
-      - 3001:3001
+      - 3003:3000
     volumes:
       - ./packages/negociacoes-api/app:/usr/src/app/app
       - ./packages/negociacoes-api/config:/usr/src/app/config
     environment:
-      - PORT=3001
+      - PORT=3000
     command: npm run start:dev
     tty: true
     networks:
