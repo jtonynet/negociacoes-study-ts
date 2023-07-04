@@ -17,5 +17,8 @@
   },
   "cSpell.ignoreWords": [
     "Negociacao"
-  ]
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
 }
