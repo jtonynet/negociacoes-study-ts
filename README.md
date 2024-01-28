@@ -1,4 +1,4 @@
-# Projeto de Estudo NodeJs e Typescript
+# Projeto de Estudo NodeJS e Typescript
 
 <img src="./docs/images/layout/header.png">
 
