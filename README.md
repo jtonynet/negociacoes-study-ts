@@ -55,15 +55,13 @@ Está nos planos atualizar o `packages/negociacoes-api`, que atualmente é um me
 
 ## :camera: Imagens
 
-<details>
-  <summary>Projeto rodando local</summary>
+
 <img src="./docs/images/project.png" alt="Projeto rodando local" title="Projeto rodando local"> 
-</details>
+
 <br>
-<details>
-  <summary>NX dep graph</summary>
+
 <img src="./docs/images/nx-dep-graph.png" alt="NX dep graph" title="NX dep graph"> 
-</details>
+
 <br>
 
 [:arrow_heading_up: voltar](#indice)
