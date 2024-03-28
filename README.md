@@ -8,7 +8,7 @@
 
 ---
 
-### 🕸️ Redes:
+## 🕸️ Redes
 
 [![linkedin](https://img.shields.io/badge/Linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jos%C3%A9-r-99896a39/) [![dev.to](https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white)](https://dev.to/learningenuity) [![gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:learningenuity@gmail.com) [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/learningenuity) [![instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/learningenuity) 
 
@@ -174,7 +174,7 @@ Para obter mais informações, consulte o [Histórico de Versões](./CHANGELOG.m
 ---
 
 <a id="ia"></a>
-### :robot: Uso de IA:
+## :robot: Uso de IA
 
 O cabeçalho desta página foi criado com auxílio de inteligência artificial e um mínimo de 
 retoque e construção no Gimp [<img src="./docs/images/icons/gimp.svg" width="30" height="30" title="Gimp" alt="Logo do Gimp" />](https://www.gimp.org/)
